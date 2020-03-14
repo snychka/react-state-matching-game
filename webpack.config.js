@@ -21,10 +21,6 @@ module.exports = env => {
           test: /\.css$/,
           use: ["style-loader", "css-loader"]
         },
-        {
-          test: /\.ttf$/,
-          use: ["file-loader"],
-        },
       ]
     },
     output: {
